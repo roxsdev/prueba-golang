@@ -10,7 +10,7 @@ metadata:
   annotations:
     github.com/project-slug: roxsdev/prueba-golang
     backstage.io/techdocs-ref: dir:.
-    argocd/app-name: prueba-golang-dev
+    argocd/app-name: prueba-golang
     backstage.io/kubernetes-id: "prueba-golang"
   tags:
     - golang
