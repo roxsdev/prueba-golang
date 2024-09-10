@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+spec:
+  system: "system:default/community-aws"
+  type:  "service"
+  lifecycle: "experimental"
+  owner:  "group:default/community-aws-arg"
+metadata:
+  name: "prueba-golang"
+  annotations:
+    github.com/project-slug: roxsdev/prueba-golang
+    backstage.io/techdocs-ref: dir:.
+    argocd/app-name: prueba-golang-dev
+    backstage.io/kubernetes-id: "prueba-golang"
+  tags:
+    - golang
+    - "service"
+    - "experimental"
+  links:
+    - url: https://prueba-golang.backstage.roxs.dev
+      title: Website
+      icon: Website
